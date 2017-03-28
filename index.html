@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>香港安琪国际集团</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="custom.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="js/fwcx.js"></script>
+  </head>
+  <body>
+    <div id="bodycotainer" class="container-fluid">
+	  <div class="row">
+		<div id="left" class="col-sm-3 hidden-xs"><img  class="img-responsive" src="images/left.png"></div>
+		<div id="middle" class="col-xs-12 col-sm-6">		
+		<div class="container-fluid">
+		<div class="row">
+		<img  class="img-responsive" src="images/background-photo_02.gif"/>
+		<div class="container-fluid" style="background:url('/images/background-photo_04.gif')">
+			<input type="text" class="form-control" placeholder="请输入防伪验证码" name="FwCode" id="FwCodec">
+			<br>
+			<button class="btn btn-lg btn-primary btn-block" onclick="fwchack('FwCodec','ReturnResult')">点击验证</button>
+			<br>
+			<div class="alert alert-danger" id="ReturnResult">这里显示您的查询结果</div>
+		</div>
+		<img  class="img-responsive" src="images/background-photo_05.gif"/>
+		</div>
+		</div>		
+		</div>
+		<div id="right" class="col-sm-3 hidden-xs"><img  class="img-responsive" src="images/background-photo_03.gif"></div>
+	  </div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
